@@ -1,0 +1,22 @@
+<!--pages/demo/demo.wxml-->
+<view class="wrap">
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" indicator-color="{{indicatorColor}}" indicator-active-color="{{activeColor}}" circular>
+    <block wx:for="{{imgUrls}}" wx:key='key'>
+      <swiper-item class='item'>
+        <image src="{{item}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+
+<view class="newlist">
+
+  <import src='template/item.wxml'/>
+
+    <block wx:for='{{arr}}' wx:key="key">
+
+      <template is="item2" data="{{item}}"/>
+
+    </block>
+
+</view>

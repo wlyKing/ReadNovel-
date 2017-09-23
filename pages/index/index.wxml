@@ -1,0 +1,10 @@
+<!--pages/index/index.wxml-->
+  <view class="container">
+     <view class="pic">
+          <image src="../../images/boy.jpg"></image>        
+     </view>
+      <text class="txt">{{ msg }}</text>
+      <view class="des" catchtap="onTap">
+         <text>小说阅读网</text>
+      </view>
+  </view>

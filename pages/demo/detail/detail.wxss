@@ -1,0 +1,35 @@
+/* pages/demo/detail/detail.wxss */
+page{
+  background: #E0EBF1;
+}
+.banner {
+  width: 100%;
+  height: 360rpx;
+  margin-bottom: 34rpx;
+}
+.tit{
+  text-align: center;
+  font-size: 32rpx;
+  line-height: 70rpx;
+  font-weight: bold;
+  color: #1C3A54;
+  border-bottom: 2px solid #BDBDBD;
+  margin:0 30rpx;
+  position: relative
+}
+
+.tit image{
+  width: 50rpx;
+  height: 50rpx;
+  position: absolute;
+  right: 0;
+  top: 15%;
+
+}
+.des{
+  margin-top: 29rpx;
+  font-size: 22rpx;
+  font-family: '宋体';
+  line-height:39rpx;
+  text-indent: 1em;
+}

@@ -1,0 +1,23 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/demo/demo",
+    "pages/demo/detail/detail"   
+              
+                  
+  ],   
+    
+    "tabBar1": {
+      "list": [
+        {
+          "pagePath": "pages/index/index",
+          "text": "首页"
+        },
+        {
+          "pagePath": "pages/demo/demo",
+          "text": "范例"
+        }
+      ],
+       "selectedColor":"#48C23D"
+    }
+}

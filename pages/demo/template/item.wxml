@@ -1,0 +1,13 @@
+<template name="item2">
+       <view class="item"  wx:key='key' catchtap="onTap" data-id="{{item.id}}">     
+              <image src="/images/{{item.url}}" class="icon"></image>
+          <view class="txt">
+            <view class="title">
+               <text>{{item.tit}}</text>
+            </view>
+            <view class="info">
+                 <text>{{item.des}}</text>
+            </view>           
+          </view>
+      </view>
+</template>

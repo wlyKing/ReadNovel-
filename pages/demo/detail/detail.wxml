@@ -1,0 +1,11 @@
+<!--pages/demo/detail/detail.wxml-->
+<image src="/images/img_info.jpg" class="banner"></image>
+<view class="tit" catchtap="onTap">
+   <text>{{list.tit}}</text>
+   <image src="/images/a.jpg" wx:if="{{collected}}" ></image>
+   <image src="/images/b.jpg" wx:else></image>   
+</view>
+
+<view class="des">
+   <text>{{list.des}}</text>
+</view>
